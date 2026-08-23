@@ -1,0 +1,171 @@
+{
+  "stations": [
+    {
+      "id": "NIQUIA",
+      "name": "Niquia"
+    },
+    {
+      "id": "BELLO",
+      "name": "Bello"
+    },
+    {
+      "id": "MADERA",
+      "name": "Madera"
+    },
+    {
+      "id": "ACEVEDO",
+      "name": "Acevedo"
+    },
+    {
+      "id": "CARIBE",
+      "name": "Caribe"
+    },
+    {
+      "id": "HOSPITAL",
+      "name": "Hospital"
+    },
+    {
+      "id": "PRADO",
+      "name": "Prado"
+    },
+    {
+      "id": "PARQUE BERRIO",
+      "name": "Parque Berrio"
+    },
+    {
+      "id": "SAN ANTONIO",
+      "name": "San Antonio"
+    },
+    {
+      "id": "ALPUJARRA",
+      "name": "Alpujarra"
+    },
+    {
+      "id": "EXPOSICIONES",
+      "name": "Exposiciones"
+    },
+    {
+      "id": "INDUSTRIALES",
+      "name": "Industriales"
+    },
+    {
+      "id": "POBLADO",
+      "name": "Poblado"
+    },
+    {
+      "id": "AGUACATALA",
+      "name": "Aguacatala"
+    },
+    {
+      "id": "ENVIGADO",
+      "name": "Envigado"
+    },
+    {
+      "id": "SABANETA",
+      "name": "Sabaneta"
+    }
+  ],
+  "connections": [
+    {
+      "from": "NIQUIA",
+      "to": "BELLO",
+      "time": 3
+    },
+    {
+      "from": "BELLO",
+      "to": "MADERA",
+      "time": 3
+    },
+    {
+      "from": "MADERA",
+      "to": "ACEVEDO",
+      "time": 4
+    },
+    {
+      "from": "ACEVEDO",
+      "to": "CARIBE",
+      "time": 4
+    },
+    {
+      "from": "CARIBE",
+      "to": "HOSPITAL",
+      "time": 4
+    },
+    {
+      "from": "HOSPITAL",
+      "to": "PRADO",
+      "time": 3
+    },
+    {
+      "from": "PRADO",
+      "to": "PARQUE BERRIO",
+      "time": 3
+    },
+    {
+      "from": "PARQUE BERRIO",
+      "to": "SAN ANTONIO",
+      "time": 2
+    },
+    {
+      "from": "SAN ANTONIO",
+      "to": "ALPUJARRA",
+      "time": 3
+    },
+    {
+      "from": "ALPUJARRA",
+      "to": "EXPOSICIONES",
+      "time": 2
+    },
+    {
+      "from": "EXPOSICIONES",
+      "to": "INDUSTRIALES",
+      "time": 3
+    },
+    {
+      "from": "INDUSTRIALES",
+      "to": "POBLADO",
+      "time": 3
+    },
+    {
+      "from": "POBLADO",
+      "to": "AGUACATALA",
+      "time": 3
+    },
+    {
+      "from": "AGUACATALA",
+      "to": "ENVIGADO",
+      "time": 4
+    },
+    {
+      "from": "ENVIGADO",
+      "to": "SABANETA",
+      "time": 4
+    },
+
+    {
+      "from": "NIQUIA",
+      "to": "MADERA",
+      "time": 8
+    },
+    {
+      "from": "MADERA",
+      "to": "HOSPITAL",
+      "time": 6
+    },
+    {
+      "from": "HOSPITAL",
+      "to": "SAN ANTONIO",
+      "time": 7
+    },
+    {
+      "from": "SAN ANTONIO",
+      "to": "INDUSTRIALES",
+      "time": 5
+    },
+    {
+      "from": "INDUSTRIALES",
+      "to": "ENVIGADO",
+      "time": 6
+    }
+  ]
+}

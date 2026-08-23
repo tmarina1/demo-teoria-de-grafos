@@ -1,0 +1,60 @@
+{
+  "stations": [
+    {
+      "id": "FLORESTA",
+      "name": "Floresta"
+    },
+    {
+      "id": "ESTADIO",
+      "name": "Estadio"
+    },
+    {
+      "id": "CENTRO",
+      "name": "Centro"
+    },
+    {
+      "id": "PARQUE BERRIO",
+      "name": "Parque Berrio"
+    },
+    {
+      "id": "SAN ANTONIO",
+      "name": "San Antonio"
+    },
+    {
+      "id": "ALPUJARRA",
+      "name": "Alpujarra"
+    }
+  ],
+  "connections": [
+    {
+      "from": "FLORESTA",
+      "to": "ESTADIO",
+      "time": 2
+    },
+    {
+      "from": "ESTADIO",
+      "to": "ALPUJARRA",
+      "time": 10
+    },
+    {
+      "from": "FLORESTA",
+      "to": "CENTRO",
+      "time": 1
+    },
+    {
+      "from": "CENTRO",
+      "to": "PARQUE BERRIO",
+      "time": 1
+    },
+    {
+      "from": "PARQUE BERRIO",
+      "to": "SAN ANTONIO",
+      "time": 1
+    },
+    {
+      "from": "SAN ANTONIO",
+      "to": "ALPUJARRA",
+      "time": 1
+    }
+  ]
+}
