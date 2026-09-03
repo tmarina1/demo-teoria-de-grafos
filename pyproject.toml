@@ -4,5 +4,6 @@ version = "0.1.0"
 description = "Aplicación educativa para demostrar algoritmos de teoría de grafos mediante una red de metro."
 requires-python = ">=3.12,<3.13"
 dependencies = [
-    "networkx>=3.4"
+    "networkx>=3.4",
+    "numpy>=2.5.2",
 ]
